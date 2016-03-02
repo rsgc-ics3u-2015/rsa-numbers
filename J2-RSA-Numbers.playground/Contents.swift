@@ -9,8 +9,8 @@
 // upper – upper limit of range of integers to check as RSA numbers
 
 // Input variables
-var lower = 1
-var upper = 1000
+var lower = 11
+var upper = 16
 
 // Handle input that is switched (lower range more than upper range
 if (lower > upper) {
@@ -49,7 +49,7 @@ for aNumber in lower...upper {
     if divisorCount == 4 {
         RSANumberCount += 1
         // debug (remember to comment this out)
-        // print("RSA number is: \(aNumber)")
+         print("RSA number is: \(aNumber)")
     }
 }
 
